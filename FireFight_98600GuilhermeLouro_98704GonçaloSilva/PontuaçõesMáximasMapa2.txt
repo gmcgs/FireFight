@@ -1,5 +1,0 @@
-Jogador: mae Pontuação: 100
-Jogador: bot Pontuação: 25
-Jogador: asdom Pontuação: -25
-Jogador: ug Pontuação: -50
-Jogador: vasco Pontuação: -100
