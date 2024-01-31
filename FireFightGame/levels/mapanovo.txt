@@ -12,3 +12,5 @@ Fireman 3 6
 Bulldozer 1 1
 Bulldozer 2 2
 Fire 3 9
+Fire 3 2
+Fire 7 9

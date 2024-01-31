@@ -3,15 +3,15 @@ package pt.iul.poo.firefight.starterpack;
 import java.util.ArrayList;
 import java.util.List;
 
-import pt.iul.ista.poo.gui.ImageTile;
+import pt.iul.poo.firefight.starterpack.gui.ImageTile;
 //import java.io.File;
 //import java.io.FileNotFoundException;
 //import java.util.ArrayList;
 //import java.util.List;
 //import java.util.Scanner;
 //
-//import pt.iul.ista.poo.gui.ImageTile;
-import pt.iul.ista.poo.utils.Point2D;
+//import pt.iul.poo.firefight.starterpack.gui.ImageTile;
+import pt.iul.poo.firefight.starterpack.utils.Point2D;
 
 public abstract class Vegetation extends GameElement implements Burnable {
 

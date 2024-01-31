@@ -10,11 +10,11 @@ import java.util.Scanner;
 
 import javax.swing.JOptionPane;
 
-import pt.iul.ista.poo.gui.ImageMatrixGUI;
-import pt.iul.ista.poo.gui.ImageTile;
-import pt.iul.ista.poo.observer.Observed;
-import pt.iul.ista.poo.observer.Observer;
-import pt.iul.ista.poo.utils.Point2D;
+import pt.iul.poo.firefight.starterpack.gui.ImageMatrixGUI;
+import pt.iul.poo.firefight.starterpack.gui.ImageTile;
+import pt.iul.poo.firefight.starterpack.observer.Observed;
+import pt.iul.poo.firefight.starterpack.observer.Observer;
+import pt.iul.poo.firefight.starterpack.utils.Point2D;
 
 // Note que esta classe e' um exemplo - nao pretende ser o inicio do projeto, 
 // embora tambem possa ser usada para isso.
@@ -49,7 +49,7 @@ public class GameEngine implements Observer {
 	private boolean isIn = false;
 	private int counter = -1;
 	private String nome;
-	private File[] files = new File("levels").listFiles();
+	private File[] files = new File("C:\\Users\\gosilva\\Documents\\FireFight\\FireFightGame\\levels").listFiles();
 	private int pontos;
 	private Pontuacao pontuacao;
 
@@ -173,7 +173,7 @@ public class GameEngine implements Observer {
 	@Override
 	public void update(Observed source) {
 		int key = gui.keyPressed(); // obtem o codigo da tecla pressionada
-		gui.setStatusMessage("Nome: " + nome + "   Pontuação: " + Integer.toString(pontos));
+		gui.setStatusMessage("Nome: " + nome + "   Pontuaï¿½ï¿½o: " + Integer.toString(pontos));
 		removeAguas();
 		planeInteractions(key);
 		bulldozerInteractions(key);
@@ -278,7 +278,7 @@ public class GameEngine implements Observer {
 		if (m == 0) {
 			pontuacao = new Pontuacao(getNome(), getPontuacao());
 			pontuacao.pontuacoesMaximas();
-			gui.setMessage("Parabéns, passaste o nível " + (counter + 1) + " com " + getPontuacao() + " pontos!");
+			gui.setMessage("Parabï¿½ns, passaste o nï¿½vel " + (counter + 1) + " com " + getPontuacao() + " pontos!");
 			setPontuacao(100);
 			wipe();
 			start();

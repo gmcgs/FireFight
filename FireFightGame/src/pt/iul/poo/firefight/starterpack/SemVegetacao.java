@@ -1,7 +1,7 @@
 package pt.iul.poo.firefight.starterpack;
 
-import pt.iul.ista.poo.utils.Point2D;
-import pt.iul.ista.poo.gui.ImageTile;
+import pt.iul.poo.firefight.starterpack.utils.Point2D;
+import pt.iul.poo.firefight.starterpack.gui.ImageTile;
 
 public class SemVegetacao implements ImageTile {
 	

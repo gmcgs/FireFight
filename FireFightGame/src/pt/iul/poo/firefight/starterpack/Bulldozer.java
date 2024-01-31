@@ -4,9 +4,9 @@ import java.awt.event.KeyEvent;
 import java.util.ArrayList;
 import java.util.List;
 
-import pt.iul.ista.poo.gui.ImageTile;
-import pt.iul.ista.poo.utils.Direction;
-import pt.iul.ista.poo.utils.Point2D;
+import pt.iul.poo.firefight.starterpack.gui.ImageTile;
+import pt.iul.poo.firefight.starterpack.utils.Direction;
+import pt.iul.poo.firefight.starterpack.utils.Point2D;
 
 public class Bulldozer extends MovableObject {
 
